@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    width: 42px;
+    height: 10px;
+    display: block;
+    background-color: black;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 78px 118px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 25px;
+    color: black;
+}
+.h1{
+    font-size: 55px;
+    margin-right: 360px;
+    font-weight: 500;
+    color: black;
+}
+.button{
+    background: #F29494;
+    color: white;
+    padding: 15px 25px; 
+}
+.info{
+    display: flex;
+    margin-left: 202px;
+    margin-top: 115px;
+    width: 1500px;
+}
+.bottom{
+    display: flex;
+}
+h2{
+    font-size: 100px;
+    font-weight: 800;
+}
+h3{
+    font-size: 30px;
+    color: #EF9C9C;
+    font-weight: 400;
+}
+p{
+    width: 632px;
+    margin-top: 54px;
+    color: #868686;
+    font-size: 20px;
+}
+.bottom{
+    margin-top: 65px;
+    position: absolute;
+    margin-left: -380px;
+}
+.card{
+text-align: center;
+width: 306px;
+height: 372px;
+background: #FFFFFF;
+box-shadow: 0px 0px 50px #0000001a;
+border-radius: 41px;
+margin-right: 42px;
+}
+.info-right{
+    margin-top: -150px;
+}
+h4{
+    padding-top: 17px;
+    font-weight: 800;
+    font-size: 40px;
+}
+h5{
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 60px;
+}
+a:hover{
+color:#EF9C9C ;
+transition: 0.5s;
+border-top: 3px solid #EF9C9C;
+border-bottom: 3px solid #EF9C9C;
+}
+.button:hover{
+    background: black;
+    color: white;
+    transition: 0.5;
+}
+.card:hover{
+    transform: rotate(10.5deg);
+    box-shadow: 0px 0px 50px #e7858567;
+    transition: 0.5s;
+}
+.big:hover{
+    transition: 1.5s;
+    transform: rotate(360deg);
+}
+.little:hover{
+    transition: 1.5s;
+    transform: rotate(360deg);  
+}
